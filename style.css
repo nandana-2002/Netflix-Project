@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.header{
+    width:100%;
+    height: 110vh;
+    background-image: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url(./images/IN-en-20231120-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    background-position: cover;
+    padding: 10px 8%;
+    position: relative;
+}
+.logo{
+    width:150px;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background-color: rgb(218, 22, 22);
+    color: white;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.english{
+    background-color: black;
+}
+.sign{
+    text-decoration: none;
+    color: white;
+}
+.content{
+    color: white;
+    text-align: center;
+    margin-top: 180px;
+}
+.movies{
+    font-size: 50px;
+    font-weight: 600;
+}
+.email input{
+    width:290px;
+    height: 50px;
+    border-radius:8px;
+    padding-left: 20px;
+    background-color: #484444;
+    opacity: 0.9;
+    outline: white;
+    
+
+
+}
+.email button{
+    height: 50px;
+    width:150px;
+    background-color: rgb(207, 17, 17);
+    border-radius: 6px;
+}
+#card1{
+    border: 4px solid grey;
+    background-color: black;
+}
+
+
+#textcard{
+    text-align: center;
+    color: white;
+}
+#download{
+    padding-top: 80px;
+}
+#card2{
+    border: 4px solid grey;
+    background-color: black; 
+}
+.asked{
+   
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+  
+    padding-top: 40px;
+
+    
+}
+.questions{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+
+}
+.questions li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.faq{
+    padding: 10px 12%;
+    background-color: black;
+    color: white;
+    border: 4px solid grey;
+}
+.questions li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+
+}
+input[type="radio"]{
+    display: none;
+}
+.sec{
+    background-color: #303030 ;
+    padding: 0 20px;
+    
+}
+.ready{
+    font-size: 20px;
+    text-align: center;
+
+
+
+    
+}
+.emaillast input{
+    width:290px;
+    height: 50px;
+    border-radius:5px;
+    padding-left: 20px;
+    background: black;
+    color: white;
+    outline: none;
+
+
+}
+.emaillast button{
+    height: 50px;
+    width:180px;
+    background-color: rgb(207, 17, 17);
+    border-radius: 6px;
+}
+.emaillast{
+
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.footer{
+    
+    background-color:black;
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+}
+.footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+
+}
+@media only screen and (max-width:600px){
+    .logo{
+        width:100px;
+    }
+        nav button{
+            padding: 5px 10px;
+
+
+        }
+        nav .english{
+            padding: 4px 8px;
+        }
+        .email button{
+            padding: 10px 15px;
+        }
+    
+    }
+
+    
